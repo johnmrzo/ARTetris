@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC67789D2B1C1BF600C4DE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC67789C2B1C1BF600C4DE85 /* AppDelegate.swift */; };
+		EC67789F2B1C1BF600C4DE85 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EC67789E2B1C1BF600C4DE85 /* art.scnassets */; };
+		EC6778A12B1C1BF600C4DE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6778A02B1C1BF600C4DE85 /* ViewController.swift */; };
+		EC6778A42B1C1BF600C4DE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6778A22B1C1BF600C4DE85 /* Main.storyboard */; };
+		EC6778A62B1C1BF700C4DE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6778A52B1C1BF700C4DE85 /* Assets.xcassets */; };
+		EC6778B02B1C1BF800C4DE85 /* ARTetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6778AF2B1C1BF800C4DE85 /* ARTetrisTests.swift */; };
+		EC6778BA2B1C1BF800C4DE85 /* ARTetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6778B92B1C1BF800C4DE85 /* ARTetrisUITests.swift */; };
+		EC6778BC2B1C1BF800C4DE85 /* ARTetrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6778BB2B1C1BF800C4DE85 /* ARTetrisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6778AC2B1C1BF800C4DE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6778912B1C1BF500C4DE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6778982B1C1BF600C4DE85;
+			remoteInfo = ARTetris;
+		};
+		EC6778B62B1C1BF800C4DE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6778912B1C1BF500C4DE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6778982B1C1BF600C4DE85;
+			remoteInfo = ARTetris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6778992B1C1BF600C4DE85 /* ARTetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC67789C2B1C1BF600C4DE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC67789E2B1C1BF600C4DE85 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		EC6778A02B1C1BF600C4DE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC6778A32B1C1BF600C4DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6778A52B1C1BF700C4DE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6778AB2B1C1BF800C4DE85 /* ARTetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6778AF2B1C1BF800C4DE85 /* ARTetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTetrisTests.swift; sourceTree = "<group>"; };
+		EC6778B52B1C1BF800C4DE85 /* ARTetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6778B92B1C1BF800C4DE85 /* ARTetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTetrisUITests.swift; sourceTree = "<group>"; };
+		EC6778BB2B1C1BF800C4DE85 /* ARTetrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTetrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6778962B1C1BF600C4DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778A82B1C1BF800C4DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778B22B1C1BF800C4DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6778902B1C1BF500C4DE85 = {
+			isa = PBXGroup;
+			children = (
+				EC67789B2B1C1BF600C4DE85 /* ARTetris */,
+				EC6778AE2B1C1BF800C4DE85 /* ARTetrisTests */,
+				EC6778B82B1C1BF800C4DE85 /* ARTetrisUITests */,
+				EC67789A2B1C1BF600C4DE85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC67789A2B1C1BF600C4DE85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6778992B1C1BF600C4DE85 /* ARTetris.app */,
+				EC6778AB2B1C1BF800C4DE85 /* ARTetrisTests.xctest */,
+				EC6778B52B1C1BF800C4DE85 /* ARTetrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC67789B2B1C1BF600C4DE85 /* ARTetris */ = {
+			isa = PBXGroup;
+			children = (
+				EC67789C2B1C1BF600C4DE85 /* AppDelegate.swift */,
+				EC67789E2B1C1BF600C4DE85 /* art.scnassets */,
+				EC6778A02B1C1BF600C4DE85 /* ViewController.swift */,
+				EC6778A22B1C1BF600C4DE85 /* Main.storyboard */,
+				EC6778A52B1C1BF700C4DE85 /* Assets.xcassets */,
+			);
+			path = ARTetris;
+			sourceTree = "<group>";
+		};
+		EC6778AE2B1C1BF800C4DE85 /* ARTetrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6778AF2B1C1BF800C4DE85 /* ARTetrisTests.swift */,
+			);
+			path = ARTetrisTests;
+			sourceTree = "<group>";
+		};
+		EC6778B82B1C1BF800C4DE85 /* ARTetrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6778B92B1C1BF800C4DE85 /* ARTetrisUITests.swift */,
+				EC6778BB2B1C1BF800C4DE85 /* ARTetrisUITestsLaunchTests.swift */,
+			);
+			path = ARTetrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6778982B1C1BF600C4DE85 /* ARTetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6778BF2B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetris" */;
+			buildPhases = (
+				EC6778952B1C1BF600C4DE85 /* Sources */,
+				EC6778962B1C1BF600C4DE85 /* Frameworks */,
+				EC6778972B1C1BF600C4DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARTetris;
+			productName = ARTetris;
+			productReference = EC6778992B1C1BF600C4DE85 /* ARTetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6778AA2B1C1BF800C4DE85 /* ARTetrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6778C22B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetrisTests" */;
+			buildPhases = (
+				EC6778A72B1C1BF800C4DE85 /* Sources */,
+				EC6778A82B1C1BF800C4DE85 /* Frameworks */,
+				EC6778A92B1C1BF800C4DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6778AD2B1C1BF800C4DE85 /* PBXTargetDependency */,
+			);
+			name = ARTetrisTests;
+			productName = ARTetrisTests;
+			productReference = EC6778AB2B1C1BF800C4DE85 /* ARTetrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6778B42B1C1BF800C4DE85 /* ARTetrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6778C52B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetrisUITests" */;
+			buildPhases = (
+				EC6778B12B1C1BF800C4DE85 /* Sources */,
+				EC6778B22B1C1BF800C4DE85 /* Frameworks */,
+				EC6778B32B1C1BF800C4DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6778B72B1C1BF800C4DE85 /* PBXTargetDependency */,
+			);
+			name = ARTetrisUITests;
+			productName = ARTetrisUITests;
+			productReference = EC6778B52B1C1BF800C4DE85 /* ARTetrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6778912B1C1BF500C4DE85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC6778982B1C1BF600C4DE85 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EC6778AA2B1C1BF800C4DE85 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EC6778982B1C1BF600C4DE85;
+					};
+					EC6778B42B1C1BF800C4DE85 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EC6778982B1C1BF600C4DE85;
+					};
+				};
+			};
+			buildConfigurationList = EC6778942B1C1BF500C4DE85 /* Build configuration list for PBXProject "ARTetris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6778902B1C1BF500C4DE85;
+			productRefGroup = EC67789A2B1C1BF600C4DE85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6778982B1C1BF600C4DE85 /* ARTetris */,
+				EC6778AA2B1C1BF800C4DE85 /* ARTetrisTests */,
+				EC6778B42B1C1BF800C4DE85 /* ARTetrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6778972B1C1BF600C4DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC67789F2B1C1BF600C4DE85 /* art.scnassets in Resources */,
+				EC6778A62B1C1BF700C4DE85 /* Assets.xcassets in Resources */,
+				EC6778A42B1C1BF600C4DE85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778A92B1C1BF800C4DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778B32B1C1BF800C4DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6778952B1C1BF600C4DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6778A12B1C1BF600C4DE85 /* ViewController.swift in Sources */,
+				EC67789D2B1C1BF600C4DE85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778A72B1C1BF800C4DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6778B02B1C1BF800C4DE85 /* ARTetrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6778B12B1C1BF800C4DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6778BC2B1C1BF800C4DE85 /* ARTetrisUITestsLaunchTests.swift in Sources */,
+				EC6778BA2B1C1BF800C4DE85 /* ARTetrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6778AD2B1C1BF800C4DE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6778982B1C1BF600C4DE85 /* ARTetris */;
+			targetProxy = EC6778AC2B1C1BF800C4DE85 /* PBXContainerItemProxy */;
+		};
+		EC6778B72B1C1BF800C4DE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6778982B1C1BF600C4DE85 /* ARTetris */;
+			targetProxy = EC6778B62B1C1BF800C4DE85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6778A22B1C1BF600C4DE85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6778A32B1C1BF600C4DE85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6778BD2B1C1BF800C4DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC6778BE2B1C1BF800C4DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6778C02B1C1BF800C4DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6778C12B1C1BF800C4DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC6778C32B1C1BF800C4DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTetris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARTetris";
+			};
+			name = Debug;
+		};
+		EC6778C42B1C1BF800C4DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTetris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARTetris";
+			};
+			name = Release;
+		};
+		EC6778C62B1C1BF800C4DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARTetris;
+			};
+			name = Debug;
+		};
+		EC6778C72B1C1BF800C4DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85U2K5C4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirzo.ARTetrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARTetris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6778942B1C1BF500C4DE85 /* Build configuration list for PBXProject "ARTetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6778BD2B1C1BF800C4DE85 /* Debug */,
+				EC6778BE2B1C1BF800C4DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6778BF2B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6778C02B1C1BF800C4DE85 /* Debug */,
+				EC6778C12B1C1BF800C4DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6778C22B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6778C32B1C1BF800C4DE85 /* Debug */,
+				EC6778C42B1C1BF800C4DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6778C52B1C1BF800C4DE85 /* Build configuration list for PBXNativeTarget "ARTetrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6778C62B1C1BF800C4DE85 /* Debug */,
+				EC6778C72B1C1BF800C4DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6778912B1C1BF500C4DE85 /* Project object */;
+}
