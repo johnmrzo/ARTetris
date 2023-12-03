@@ -29,6 +29,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     sceneView.scene = scene
     
     sceneView.debugOptions = .showFeaturePoints
+    
+    let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.onTap(withGestureRecognizer:)))
+    sceneView.addGestureRecognizer(tapGestureRecognizer)
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -49,6 +52,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // Pause the view's session
     sceneView.session.pause()
   }
+  
+  @objc func onTap(withGestureRecognizer recognizer: UIGestureRecognizer) {
+    let tapLocation = recognizer.location(in: sceneView)
+    let hitTestResults = sceneView.hitTest(tapLocation, types: .existingPlaneUsingExtent)
+    
+    guard let hitTestResult = hitTestResults.first else { return }
+    
+    // Extracting translation components from the hit result
+    let translation = hitTestResult.worldTransform.columns.3
+    let x = Float(translation.x)
+    let y = Float(translation.y)
+    let z = Float(translation.z)
+    
+    // Create a new block and draw it
+    let block = Block(x: x, y: y, z: z)
+    block.draw(scene: sceneView.scene)
+  }
+
   
   func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
     // Get the new node that was detected
